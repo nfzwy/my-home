@@ -1,0 +1,358 @@
+/*
+* @Author: Administrator
+* @Date:   2018-04-10 13:00:55
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-04-14 15:21:49
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background:#000000;
+	position: relative; 
+}
+a{
+	text-decoration: none;
+}
+.hide{
+	display: none;
+}
+.block{
+	display: block;
+}
+
+.home{
+	width: 100%;
+	height: auto;
+}
+/* 头部开始 */
+.header_box{
+	position: fixed;
+	top: 0;
+	left: 110px;
+	width: 1200px;
+	height: 50px;
+	margin: 0 auto;
+	background:url('../img/2.jpg') center no-repeat;
+	background-size: cover;
+	background-color:rgba(0,0,0,0.3);
+}
+header{
+	width: 1200px;
+	height: 380px;
+	margin: 0 auto;
+	background:url('../img/2.jpg') center no-repeat;
+	background-size: cover;
+}
+.header_list{
+	width: 82px;
+	height: 18px;
+	float: right;
+	margin-top: 22px;
+	margin-right: 32px;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255, 255, 255, 0.6);
+	line-height: 18px;
+	text-align: center;
+}
+.a1{color:rgb(255, 255, 255);}
+.a1:hover{
+	color: red;
+	font-size: 22px;
+	font-weight: 700; 
+}
+.header_list:first-child{
+	margin-right: 0;
+}
+/* 我的信息 */
+.header_1{
+	width: 1100px;
+	height: 250px;
+	margin: 80px auto;
+	display: flex;
+}
+.header_me{
+	margin: 70px auto;
+	width: 180px;
+	height: 180px;
+	background: url('../img/tou.jpg')no-repeat center;
+	background-size: cover;
+	border-radius: 20%;
+	box-shadow: 0 0 15px 5px #545454;
+
+}
+.me{
+   width: 180px;
+   height: 30px;
+   text-align: center;
+   margin-top: 200px;
+   color: rgb(255, 255, 255);
+}
+.me h1{
+   font-size: 0.3rem;
+   font-weight: bold;
+}
+.me h2{
+	font-size: 0.18rem;
+}
+/* 社交信息 */
+.header_xinxi{
+	margin-top: 70px;
+	margin-left:150px;
+	width: 800px;
+	height: 250px;
+	/* background: red; */
+}
+.xinxi_right{
+	width:700px; 
+    height: 200px;
+    color:#f5f5f5; 
+    font-size: 12px;
+    font-style: italic;
+    line-height: 40px;
+    text-shadow: 10px -10px 10px gray;
+    /* background: red; */
+}
+.xinxi_left{
+   margin-top:-5px; 
+   width: 100%;
+   height: 35px;
+   display: flex;
+}
+.xinxi_list{
+	margin-left: 30px;
+	width: 150px;
+	height: 35px;
+	background: #919191;
+	background-color: rgba(145, 145, 145, 0.5);
+	border-radius: 20%;
+	margin-top: 22px;
+	display: flex;
+}
+.xinxi_list:first-child{
+	margin-left: 0;
+}
+.xinxi_list img{
+	margin-left: 10px;
+	width: 30px;
+    height: 30px;
+}
+.xinxi_list h1{
+	line-height: 30px;
+	text-align: center;
+	color: #f5f5f5;
+	font-size: 15px;
+	margin-left: 10px;
+}
+/* 头部结束 */
+/* about部分开始 */
+#about{
+	width: 1200px;
+	height: 350px;
+	margin: 20px auto;
+	background: url('../img/3.jpg')no-repeat center;
+	background-size: cover;
+}
+.title{
+	width: 282px;
+	height: 50px;
+	background: url('../img/title.png')no-repeat center;
+	background-size: cover;
+	margin: 0 auto;
+	color:#f5f5f5; 
+	font-size: 25px;
+	font-family: 华文隶书;
+	line-height: 50px;
+	text-align: center;
+}
+.about_box{
+	width: 900px;
+	height: 290px;
+	margin: 0 auto;
+	display: flex;
+}
+.about_left{
+	width: 290px;
+	height: 290px;
+	-webkit-animation: xiaobairen 5s steps(8) infinite;
+}
+@keyframes xiaobairen{
+	0%{
+       background: url('../img/xuan.jpg') no-repeat 0 0;
+	}
+	100%{
+		background: url('../img/xuan.jpg') no-repeat -1450px 0;
+	}
+}
+.about_right{
+	margin-left: 30px;
+	width: 580px;
+	height: 290px;
+	/* background: yellow; */
+	font-size: 20px;
+	color: #f5f5f5;
+    line-height: 40px;
+	text-decoration: underline;
+}
+/* about部分结束 */
+/* skills部分开始 */
+#skills{
+	width: 1200px;
+	height: 350px;
+	margin: 20px auto;
+	background: url('../img/3.jpg')no-repeat center;
+	background-size: cover;
+}
+.skills_box{
+	width: 900px;
+	height: 290px;
+	margin: 0 auto;
+	display: flex; 
+	justify-content: space-between;
+}
+.skills_list{
+	margin: 80px 20px;
+	width: 150px;
+	height: 150px;
+	-webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+     box-shadow: -10px -10px 8px gray;
+	/* 淡入淡出效果 */
+	opacity: 0.5;
+    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+    /* 阴影效果 */
+    transition: box-shadow 0.5s;
+    -webkit-transition: box-shadow 0.5s;
+}
+.img1{
+	background: url('../img/08b1.jpg') no-repeat center;}
+.img2{background: url('../img/011f.jpg')no-repeat center;}
+.img3{background: url('../img/ps.jpg')no-repeat center;}
+.img4{background: url('../img/timg.jpg')no-repeat center;}
+.skills_list span{
+	width: 200px;
+	color: #009944;
+	font-size: 30px;
+	font-weight: bold;
+	display:inline-block;
+    -webkit-transform:rotate(-45deg);
+    moz-transform:rotate(-45deg);
+}
+.s{color: white;}
+.skills_list:hover{
+    opacity: 1;
+    box-shadow: 0px 0px 8px orange;
+    margin-top: 60px;
+}
+/* skills部分结束 */
+/* portfolio部分开始 */
+#portfolio{
+	width: 1200px;
+	height: 450px;
+	margin: 20px auto;
+	background: url('../img/3.jpg')no-repeat center;
+	background-size: cover;
+}
+.portfolio_box{
+	width: 900px;
+	height: 380px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-shrink: 0;
+}
+.portfolio_list{
+	width: 250px;
+	height: 150px;
+	/* border: 1px solid white; */
+	box-shadow: 10px 10px 10px #8b8b8d;
+	float: left;
+	margin-top: 30px;
+	background: url('../img/8c.jpg')no-repeat center;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	line-height: 150px;
+	font-weight: bold;
+
+	opacity: 0.5;
+    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+}
+.portfolio_list:hover{
+	box-shadow: 0px 0px 8px orange;
+	opacity: 1;
+	transform: rotate(-6.5deg);
+}
+/*portfolio部分结束 */
+/* contact部分开始 */
+#contact{
+	width: 1200px;
+	height: 300px;
+	margin: 20px auto;
+	background: url('../img/3.jpg')no-repeat center;
+	background-size: cover;
+}
+.contact_box{
+	width: 900px;
+	height: 220px;
+	margin: 0 auto;
+}
+.box_top{
+	width: 100%;
+    height: 70px;
+    /* background: red; */
+}
+.input_1{
+	width: 440px;
+	height: 30px;
+	margin-top: 20px;
+	font-size: 15px;
+	border:1px dashed white;
+	background-color:rgba(255,255,255,0.1); 
+}
+.box_bottom{
+	width: 100%;
+	height: 150px;
+}
+.input_2{
+	width: 888px;
+	height: 130px;
+	font-size: 15px;
+	border:1px dashed white;
+	background-color:rgba(255,255,255,0.1); 
+}
+.button{
+	width: 120px;
+	height: 25px;
+	margin: 10px 380px;
+	border:1px solid white;
+	background-color:rgba(255,255,255,0.1); 
+	color: white;
+	font-size: 15px;
+	text-align: center;
+}
+input:focus{
+	outline: none;
+}
+textarea:focus{
+   outline: none;	
+}
+/* contact部分结束 */
+.ji{
+	width: 1200px;
+	height: 50px;
+	margin: 20px auto;
+	background: url('../img/3.jpg')no-repeat center;
+	background-size: cover; 
+	color:white;
+	font-size: 25px;
+	text-align: center;
+}

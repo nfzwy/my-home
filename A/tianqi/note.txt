@@ -1,0 +1,25 @@
+一、移动端布局：
+三步：
+1、修改视口
+<meta name="viewport" content="width=device-width">
+2、引入rem.js
+<script src="js/rem.js"></script>
+3、修改rem.js中设计稿的宽度
+
+二、弹性布局
+父元素--容器
+子元素--项目
+容器的属性：
+display:flex;--制定为弹性布局
+justify-content:space-between;--项目在主轴方向的对其方式 两端对其
+项目的属性：
+flex-shrink:0;--禁止项目缩小
+
+三、内填充 padding
+有不允许被占用的空间用padding
+上填充：padding-top
+下填充：padding-bottom
+左填充：padding-left
+右填充：padding-right
+问题：盒子会变大
+解决：box-sizing:border-box;

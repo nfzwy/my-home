@@ -1,0 +1,76 @@
+/*
+* @Author: Administrator
+* @Date:   2018-03-15 19:57:46
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-03-15 23:14:52
+*/
+*{
+	margin: 0;
+	padding: 0;
+    list-style: none;
+}	
+body{
+	background: #333;
+}
+.scene{
+	width: 500px;
+	height: 500px;
+	/* background: green; */
+	border: 2px solid red;
+	margin: 100px auto;
+	perspective: 100px;
+	/* perspective-origin: left top; */
+}
+.scene ul{
+    width: 200px;
+	height: 200px;
+	background: deeppink;
+	border: 2px solid blue;
+	margin: 150px;
+	position: relative;
+	transform-style: preserve-3d;
+	transition: 2s; 
+}
+.scene ul li{
+	width: 200px;
+	height: 200px;
+	/* background: pink; */
+	/* border: 2px solid blue; */
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 2s;
+}
+.scene:hover .left{
+	background: deeppink;
+	transform: translateX(-100px) rotateY(90deg);
+	box-shadow: 0 0 15px 5px #fff;
+}
+.scene:hover .right{
+	background: skyblue;
+	transform: translateX(100px) rotateY(90deg);
+	box-shadow: 0 0 15px 5px #fff;
+}
+ .scene:hover .top{
+	background: green;
+	transform: translateY(-100px) rotateX(90deg);
+	box-shadow: 0 0 15px 5px #fff;
+}
+.scene:hover .bottom{
+	background:rgba(255, 255, 255, 0.4) ;
+	transform: translateY(100px) rotateX(90deg);
+	box-shadow: 0 0 15px 5px #fff;
+}
+.scene:hover .before{
+	background: #ff6700 ;
+	transform: translateZ(100px);
+	box-shadow: 0 0 15px 5px yellow;
+}
+.scene:hover .after{
+	background: #968787;
+	transform: translateZ(-100px);
+	box-shadow: 0 0 15px 5px #aa5353;
+}
+.scene:hover ul{
+	transform: rotate3d(0, 1, 1, 180deg);
+}

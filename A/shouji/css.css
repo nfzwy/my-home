@@ -1,0 +1,131 @@
+/*
+* @Author: Administrator
+* @Date:   2018-03-10 08:59:31
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-03-10 13:59:38
+*/
+.zhu{
+	width: 1200px;
+	height: 800px;
+	border: 1px solid black;
+	background: #bce9fe;
+	margin:  0 auto;
+}
+.box{
+	width: 310px;
+	height: 620px;
+	background: #f1f0f6;
+	margin: 0 auto; 
+	border: 8px solid #cfb899;
+	box-shadow: 20px 20px 10px #adb1b0;
+	border-radius: 8%;
+	margin-top: -625px;
+	/* z-index: 100; */
+}
+.box_1{
+	width: 287px;
+	height: 66px;
+	margin: 0 auto;
+	border-radius: 20%;
+	border: 1px solid #f1f0f6;
+	/* background: gray; */
+}
+.box_2{
+	width: 287px;
+	height: 488px;
+	margin: 0 auto;
+	border: 1px solid  #677c7d;
+	background: #5cbfe9;
+	background: url('15-150G3145926138.jpg');
+	background-size: 100% auto;
+}
+.box_3{
+	width: 287px;
+	height: 66px;
+	margin: 0 auto;
+	/* background: gray; */
+	/* border: 1px solid black; */
+}
+.box_1_1
+{
+	width: 104px;
+	height: 8px;
+	/* border:1px solid  red; */
+	margin:24px 93px ;
+}
+.box_1_1_1{
+	width: 8px;
+	height: 8px;
+	background: #0d0922;
+	float: left;
+	border-radius: 50%;
+}
+.box_1_1_2{
+	width: 66px;
+	height: 8px;
+	background: #0d0922;
+	border-radius: 20%;
+	float: left;
+	margin-left: 11px;
+}
+.box_1_1_3{
+	width: 8px;
+	height: 8px;
+	background: #0d0922;
+	border-radius: 50%;
+	float: right;
+}
+.box_3_1{
+	width: 60px;
+	height: 24px;
+	border-radius: 40%;
+	background: #f1f0f6;
+	border: 5px solid #cfb899;
+	margin: 10px 110px;
+}
+.bei{
+	width: 310px;
+	height:620px;
+	background: #d4bfa2; 
+    border: 1px solid gray;
+    margin-left: 680px;
+	/* margin  0 auto; */
+	/* z-index: 185; */
+	border-radius: 8%;
+}
+.bei_1{
+	width:310px;
+	height: 5px; 
+	background: #7a5b3c;
+	margin-top: 30px;
+}
+.bei_2{
+	width:310px;
+	height: 5px;
+	background: #7a5b3c;
+	margin-top: 310px;
+}
+.bei_3{
+	width: 40px;
+	height: 40px;
+	background: #393840;
+	margin: 43px 112px;
+	border-radius: 50%;
+	border: 24px solid #302b32;
+}
+.bei_4{
+	width: 10px;
+	height: 28px;
+	border-radius: 40%;
+	border: 5px solid #8a7e6e;
+	background: #bba16e;
+	margin: -30px 144px;
+}
+.bei_5{
+	width: 72px;
+	height: 13px;
+	margin: 70px 100px;
+	text-align: center;
+	font-size: 40px;
+	color: #52483f;
+}
